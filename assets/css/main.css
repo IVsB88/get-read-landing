@@ -2363,15 +2363,15 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 8px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-	}
+  		border: 0;
+  		display: inline-block;
+  		position: relative;
+		}
 
 		.image img {
-			border-radius: 8px;
-			display: block;
+ 			 display: block;
+ 			 /* Apply rounded corners (adjust 20px as needed) */
+ 			 border-radius: 20px;
 		}
 
 		.image.left, .image.right {
